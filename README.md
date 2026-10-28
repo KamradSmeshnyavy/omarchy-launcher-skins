@@ -60,6 +60,16 @@ A skin is a QML file that extends `SkinBase.qml` and is registered in `SkinConfi
 (and `radial: true` for rings) gets paging from the base: `page`, `pages`, `pageStart`, `pageCount`,
 `ringStep()`, `pageStep()` and an animated `ringPhase`. `variant` is `"hack"` / `"term"` for the twins.
 
+## With the Customizer
+
+[omarchy-customizer](https://github.com/KamradSmeshnyavy/omarchy-customizer) is one overlay (Super+Shift+T) with live preview for this plugin's settings and
+the rest of the look & feel: themes, wallpapers, Hyprland animations, transparency, blur, screen shaders.
+One command installs it and offers this plugin and the others:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/KamradSmeshnyavy/omarchy-customizer/main/install.sh | bash
+```
+
 ## License
 
 MIT. Based on `omarchy.menu` from [Omarchy](https://github.com/basecamp/omarchy) (MIT, © David Heinemeier
