@@ -39,7 +39,23 @@ The file is watched — you can switch skins even while the menu is open. Open i
 (menu), Super+Alt+Space (apps). Optional `"backdrop": 0.94` sets how much of the desktop shows through.
 Back to the stock menu: `omarchy plugin enable omarchy.menu`.
 
-Tested on Omarchy 4.0.6 with Quickshell 0.3.2.
+
+## Requirements
+
+Omarchy 4 (Quattro) with its shell. Tested on Omarchy 4.0.6 with Quickshell 0.3.2.
+
+- `jq` (ships with Omarchy).
+- DOT-MATRIX designs use the fonts shipped with the [Customizer](https://github.com/KamradSmeshnyavy/omarchy-customizer) (Doto, Space Grotesk, Space Mono); without them they fall back to the Omarchy font.
+
+## Uninstall
+
+```sh
+omarchy plugin enable omarchy.menu      # switch back to the stock one first
+omarchy plugin remove kamradsmeshnyavy.menu
+omarchy restart shell
+```
+
+Your settings stay in `~/.config/omarchy/extensions/menu-skin.json`, `~/.config/omarchy/extensions/omarchy-menu.json` — delete them by hand if you don't need them.
 
 ## Keys
 

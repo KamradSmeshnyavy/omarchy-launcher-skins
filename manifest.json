@@ -4,6 +4,7 @@
   "name": "Launcher Skins",
   "version": "1.0.0",
   "author": "KamradSmeshnyavy",
+  "license": "MIT",
   "description": "Omarchy menu and app launcher with 10 full-screen skins recoloured from the active theme",
   "kinds": [
     "menu",

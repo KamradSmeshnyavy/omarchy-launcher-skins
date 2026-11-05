@@ -39,7 +39,23 @@ echo '{"skin": "orrery"}' > ~/.config/omarchy/extensions/menu-skin.json
 Super+Alt+Space (приложения). Необязательный `"backdrop": 0.94` — насколько просвечивает рабочий стол.
 Вернуть стоковое меню: `omarchy plugin enable omarchy.menu`.
 
-Проверено на Omarchy 4.0.6 и Quickshell 0.3.2.
+
+## Требования
+
+Omarchy 4 (Quattro) с его оболочкой. Проверено на Omarchy 4.0.6 и Quickshell 0.3.2.
+
+- `jq` (есть в Omarchy).
+- Дизайны DOT-MATRIX используют шрифты из [Customizer](https://github.com/KamradSmeshnyavy/omarchy-customizer) (Doto, Space Grotesk, Space Mono); без них — шрифт Omarchy.
+
+## Удаление
+
+```sh
+omarchy plugin enable omarchy.menu      # сначала вернуть стоковый
+omarchy plugin remove kamradsmeshnyavy.menu
+omarchy restart shell
+```
+
+Настройки остаются в `~/.config/omarchy/extensions/menu-skin.json`, `~/.config/omarchy/extensions/omarchy-menu.json` — удалите их вручную, если не нужны.
 
 ## Клавиши
 
