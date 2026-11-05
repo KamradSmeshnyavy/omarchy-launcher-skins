@@ -80,10 +80,10 @@ A skin is a QML file that extends `SkinBase.qml` and is registered in `SkinConfi
 
 [omarchy-customizer](https://github.com/KamradSmeshnyavy/omarchy-customizer) is one overlay (Super+Shift+T) with live preview for this plugin's settings and
 the rest of the look & feel: themes, wallpapers, Hyprland animations, transparency, blur, screen shaders.
-One command installs it and offers this plugin and the others:
+Install it next to this plugin (it finds the other companions on its own):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/KamradSmeshnyavy/omarchy-customizer/main/install.sh | bash
+omarchy plugin add https://github.com/KamradSmeshnyavy/omarchy-customizer --enable
 ```
 
 ## License
