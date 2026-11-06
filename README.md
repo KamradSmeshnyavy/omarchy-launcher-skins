@@ -8,6 +8,8 @@ Each skin is recoloured from the active theme every time it opens.
 
 ![Skins](screenshots/skins.webp)
 
+<!-- Demo video: repo-videos/omarchy-launcher-skins.mp4 — drag it here when editing this file on GitHub -->
+
 | Skin | |
 |---|---|
 | `constellation` | apps as stars on a sky map |

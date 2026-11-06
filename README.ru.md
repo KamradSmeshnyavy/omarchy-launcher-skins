@@ -8,6 +8,8 @@
 
 ![Скины](screenshots/skins.webp)
 
+<!-- Demo video: repo-videos/omarchy-launcher-skins.mp4 — drag it here when editing this file on GitHub -->
+
 | Скин | |
 |---|---|
 | `constellation` | приложения — звёзды на карте неба |
